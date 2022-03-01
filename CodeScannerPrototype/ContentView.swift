@@ -6,11 +6,40 @@
 //
 
 import SwiftUI
+import CodeScanner
 
 struct ContentView: View {
+    @State private var isPresentingScanner = false
+    @State private var scannedCode: String?
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color.orange.ignoresSafeArea()
+            
+            VStack(spacing: 10) {
+                Text("Welcome").padding()
+                        
+                Button(action: present) {
+                    Label("Scan Code", systemImage: "camera")
+                }
+                .buttonStyle(.borderedProminent)
+                
+                Text("Code: \(scannedCode ?? "None found")")
+                .padding()
+            }
+            .sheet(isPresented: $isPresentingScanner) {
+                CodeScannerView(codeTypes: [.ean8, .ean13]) { response in
+                    if case let .success(result) = response {
+                        scannedCode = result.string
+                        isPresentingScanner = false
+                    }
+                }
+            }
+        }
+    }
+    
+    func present() {
+        isPresentingScanner = true
     }
 }
 

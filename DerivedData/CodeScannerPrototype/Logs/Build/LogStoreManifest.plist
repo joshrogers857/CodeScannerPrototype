@@ -5,6 +5,109 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>40983616-FADC-41AC-B611-30B99903EA44</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>40983616-FADC-41AC-B611-30B99903EA44.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CodeScannerPrototype project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CodeScannerPrototype</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CodeScannerPrototype</string>
+			<key>timeStartedRecording</key>
+			<real>667847378.13538599</real>
+			<key>timeStoppedRecording</key>
+			<real>667847378.18422198</real>
+			<key>title</key>
+			<string>Build CodeScannerPrototype</string>
+			<key>uniqueIdentifier</key>
+			<string>40983616-FADC-41AC-B611-30B99903EA44</string>
+		</dict>
+		<key>461515DF-4A67-470D-B7C6-3C4EEE476083</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>461515DF-4A67-470D-B7C6-3C4EEE476083.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CodeScannerPrototype project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CodeScannerPrototype</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CodeScannerPrototype</string>
+			<key>timeStartedRecording</key>
+			<real>667847506.86115503</real>
+			<key>timeStoppedRecording</key>
+			<real>667847506.89807796</real>
+			<key>title</key>
+			<string>Build CodeScannerPrototype</string>
+			<key>uniqueIdentifier</key>
+			<string>461515DF-4A67-470D-B7C6-3C4EEE476083</string>
+		</dict>
+		<key>62505591-D701-4F68-BE34-783225E882CD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>62505591-D701-4F68-BE34-783225E882CD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CodeScannerPrototype project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CodeScannerPrototype</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CodeScannerPrototype</string>
+			<key>timeStartedRecording</key>
+			<real>667847439.11023998</real>
+			<key>timeStoppedRecording</key>
+			<real>667847439.32494295</real>
+			<key>title</key>
+			<string>Build CodeScannerPrototype</string>
+			<key>uniqueIdentifier</key>
+			<string>62505591-D701-4F68-BE34-783225E882CD</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
