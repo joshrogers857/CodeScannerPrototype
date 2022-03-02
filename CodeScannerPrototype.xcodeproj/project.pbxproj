@@ -12,6 +12,9 @@
 		BD1115E127CE81FE0002B09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1115E027CE81FE0002B09C /* Assets.xcassets */; };
 		BD1115E427CE81FE0002B09C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1115E327CE81FE0002B09C /* Preview Assets.xcassets */; };
 		BD1115EC27CE868E0002B09C /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = BD1115EB27CE868E0002B09C /* CodeScanner */; };
+		BD5417B027CFBBB7005CB768 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD5417AE27CFBBB7005CB768 /* Main.xcdatamodeld */; };
+		BD5417B227CFBCC8005CB768 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5417B127CFBCC8005CB768 /* PersistenceController.swift */; };
+		BD5417B427CFBD24005CB768 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5417B327CFBD24005CB768 /* Products.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		BD1115DE27CE81FD0002B09C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD1115E027CE81FE0002B09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1115E327CE81FE0002B09C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD5417AF27CFBBB7005CB768 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		BD5417B127CFBCC8005CB768 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		BD5417B327CFBD24005CB768 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,10 @@
 		BD1115DB27CE81FD0002B09C /* CodeScannerPrototype */ = {
 			isa = PBXGroup;
 			children = (
-				BD1115DC27CE81FD0002B09C /* CodeScannerPrototypeApp.swift */,
-				BD1115DE27CE81FD0002B09C /* ContentView.swift */,
+				BD5417B827CFBD59005CB768 /* ViewModels */,
+				BD5417B727CFBD4E005CB768 /* Views */,
+				BD5417B627CFBD3B005CB768 /* Models */,
+				BD5417B527CFBD2B005CB768 /* Repositories */,
 				BD1115E027CE81FE0002B09C /* Assets.xcassets */,
 				BD1115E227CE81FE0002B09C /* Preview Content */,
 			);
@@ -67,6 +75,39 @@
 				BD1115E327CE81FE0002B09C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD5417B527CFBD2B005CB768 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				BD5417AE27CFBBB7005CB768 /* Main.xcdatamodeld */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		BD5417B627CFBD3B005CB768 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD5417B127CFBCC8005CB768 /* PersistenceController.swift */,
+				BD5417B327CFBD24005CB768 /* Products.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD5417B727CFBD4E005CB768 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD1115DE27CE81FD0002B09C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD5417B827CFBD59005CB768 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BD1115DC27CE81FD0002B09C /* CodeScannerPrototypeApp.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5417B027CFBBB7005CB768 /* Main.xcdatamodeld in Sources */,
 				BD1115DF27CE81FD0002B09C /* ContentView.swift in Sources */,
+				BD5417B427CFBD24005CB768 /* Products.swift in Sources */,
 				BD1115DD27CE81FD0002B09C /* CodeScannerPrototypeApp.swift in Sources */,
+				BD5417B227CFBCC8005CB768 /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +414,19 @@
 			productName = CodeScanner;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		BD5417AE27CFBBB7005CB768 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD5417AF27CFBBB7005CB768 /* Main.xcdatamodel */,
+			);
+			currentVersion = BD5417AF27CFBBB7005CB768 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD1115D127CE81FD0002B09C /* Project object */;
 }
